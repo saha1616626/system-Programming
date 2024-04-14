@@ -196,7 +196,7 @@ int main()
             cin >> date;
             vector<int> position;
             position = linkList.checkFoundationDate(date);
-            for (size_t i = 0; position.size(); i++) {
+            for (size_t i = 0; i < position.size(); i++) {
                 try {
                     City city = linkList.getByPosition(i);
                     cout << "Позиция: " << i << " Город: " << city.cityName << endl;
