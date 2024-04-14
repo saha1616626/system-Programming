@@ -1,0 +1,6 @@
+﻿  Lab_8.cpp
+E:\3comm\Documents\Предметы\Курс 3.2\Системное программирование\Лаба 8\Lab_8\Lab_8\Lab_8.cpp(201,56): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  LinkedList.cpp
+  city.cpp
+  Generating Code...
+  Lab_8.vcxproj -> E:\3comm\Documents\Предметы\Курс 3.2\Системное программирование\Лаба 8\Lab_8\x64\Debug\Lab_8.exe
