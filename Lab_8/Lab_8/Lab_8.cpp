@@ -81,7 +81,7 @@ vector<int> LinkedList::checkFoundationDate(int date) {
             position.push_back(index);
         }
         current = current->next;
-        index;
+        index++;
     }
 
     if (position.empty()) {
@@ -198,7 +198,7 @@ int main()
             position = linkList.checkFoundationDate(date);
             for (size_t i = 0; i < position.size(); i++) {
                 try {
-                    City city = linkList.getByPosition(i);
+                    City city = linkList.getByPosition(position[i]);
                     cout << "Позиция: " << i << " Город: " << city.cityName << endl;
                 }
                 catch (string error_message) {
